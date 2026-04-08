@@ -1,11 +1,11 @@
 data "aws_ami" "joindevops" {
 
 	most_recent      = true
-	owners = ["973714476881"]
+	owners = ["amazon"]
 	
 	filter {
 		name   = "name"
-		values = ["RHEL-9-DevOps-Practice"]
+		values = ["ami-0220d79f3f480ecf5"]
 	}
 	
 	filter {
