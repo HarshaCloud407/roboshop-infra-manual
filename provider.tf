@@ -7,10 +7,10 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "81s-remote-state-dev"
+    bucket = "81s-hariprasadbanoth-dev"
     key    = "roboshop-manual"
     region = "us-east-1"
-    dynamodb_table = "81s-locking-dev"
+    dynamodb_table = "81s-roboshop-dev"
   }
 }
 

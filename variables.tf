@@ -17,13 +17,13 @@ variable "instances" {
 
 variable "allow_all" {
     type = string
-    default = "sg-0fea5e49e962e81c9"
+    default = "sg-053006dfb74a59c88"
 }
 
 variable "zone_id" {
-    default = "Z09912121MS725XSKH1TG"
+    default = "Z0546663IDCCX1J5ZDOZ"
 }
 
 variable "domain_name" {
-    default = "daws81s.online"
+    default = "hariawsdevops.online"
 }
