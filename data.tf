@@ -1,4 +1,4 @@
-data "aws_ami" "joindevops" {
+data "aws_ami" "Redhat-9-DevOps-Practice" {
 
 	most_recent      = true
 	owners = ["amazon"]
