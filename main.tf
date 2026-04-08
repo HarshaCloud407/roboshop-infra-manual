@@ -1,6 +1,6 @@
 resource "aws_instance" "roboshop" {
   for_each = var.instances #each.key and each.value
-  ami           = data.aws_ami.joindevops.id
+  ami           = ami-0220d79f3f480ecf5
   instance_type = each.value
   vpc_security_group_ids = [var.allow_all]
   tags = {
