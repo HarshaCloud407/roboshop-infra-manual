@@ -10,7 +10,7 @@ terraform {
     bucket = "81s-hariprasadbanoth-dev"
     key    = "roboshop-manual"
     region = "us-east-1"
-    dynamodb_table = "81s-roboshop-dev"
+    dynamodb_table = "81s-roboshop-dev1"
   }
 }
 
